@@ -27,7 +27,7 @@ export default function Home() {
 
   const handleOpen = () => {
     if (!isNewYear) {
-      setError('Il faut attendre minuit à Charlotte (USA) le 1er janvier 2025! 🎉');
+      setError('Espera que sean las 00:00 madame :) ! 🎉');
       setClickCount(prev => prev + 1);
       
       // Solution de secours après 5 clics
